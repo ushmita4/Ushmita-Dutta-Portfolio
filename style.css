@@ -24,6 +24,14 @@
     backdrop-filter:blur(1rem);
     z-index:5;
   }
+  @media screen and (max-width: 768px) {
+    .glass {
+      width: 100%; /* Adjust width for smaller screens */
+    }
+    main{
+      width: 100%;
+    }
+  }
   .circle1{
   background: linear-gradient(
     to right bottom,
